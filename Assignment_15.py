@@ -35,19 +35,20 @@ for e in range(len(a)):
             j=j+1
             print("Substring is found at index",e)
         else:
-            ("Substring Not found")    
+            print("Substring Not found")    
 #8. Write a python script to check if a string contains only numbers.
 u="1457328"
 if u.isnumeric():
-    print("Yes")
+    print("Yes,string contains only numbers")
 else:
-    print("No")        
+    print("No,string not contains only numbers")        
 #9. Write a python script to check if a string contains only characters of the alphabet.
 u="Soumik7328"
 if u.isalpha():
-    print("Yes")
+    print("Yes,,string contains only characters of the alphabet"")
 else:
-    print("No")    
+    print("No,string not contains only characters of the alphabet"")    
 #10. Write a python script to convert an integer to a string.
 a=123
-print(str(a),type(a))
+b=str(a)
+print(b,type(b))
